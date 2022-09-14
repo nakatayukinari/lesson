@@ -1,0 +1,16 @@
+.clock {color: orange; float: left; padding: 7px 10px 0px 5px;}
+
+.tittle_main {border-left: solid black 4px;
+border-bottom: solid black 2px;
+padding-left: 5px;
+font-size: 27px;
+font-weight: bold;
+margin-top: 20px;}
+
+.gray_box {margin:auto 0; background-color: lightslategray;}
+
+.gray_box.photo {margin-top: -5px;}
+
+.gray_box.photo a:link {color: darkslategray;}
+.gray_box.photo a:visited {color: darkslategray;}
+.gray_box.photo a:hover { color:#ff0000;}

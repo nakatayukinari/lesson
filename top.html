@@ -54,7 +54,50 @@
             <h2 class="title_main">プログラミングに役立つ書籍</h2>
             <div class="clock"><i class="fas fa-clock"></i></div>
             <div class="mt-3">2017/1/15</div>
-            <img src="./img/bookstore.jpg" class="img-fluid mt-3 mb-3">
+
+            <div class="carousel slide" id="slider" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#">
+                    <img src="./img/bookstore.jpg" class="img-fluid mt-3 mb-3">
+                    <div class="carusel-caption">
+                      <div class="display-4 pb-5">Brodens your horizon</div>
+                      <p>プログラミングで可能性を広げよう</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#">
+                    <img src="./img/tokyo.jpg" class="img-fluid mt-3 mb-3">
+                    <div class="carusel-caption">
+                      <div class="display-4 pb-5">Work hard play hard</div>
+                      <p>全力で働き　全力で遊ぶ</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#">
+                    <img src="./img/office.jpg" class="img-fluid mt-3 mb-3">
+                    <div class="carusel-caption">
+                      <div class="display-4 pb-5">Creative office</div>
+                      <p>クリエイティブな環境と生産性</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <a href="#slider" class="caruser-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a href="#slider" class="caruser-control-next" data-slide="next">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+            </div>
+            <p>4eachはインターノウスが提供するオンラインでプログラミングができるイーラーニングシステムです。</p>
           </div>
         </div>
 
@@ -133,7 +176,7 @@
           <button class="navbar-toggler sp w-100" data-toggle="collapse" data-target="#menu3">
             <span class="text-black font-weight-bold height:300px;">カテゴリ</span><span class="float-right">+</span>
           </button>
-          <div class="collapse navbar-collapse margin" id="menu2">
+          <div class="collapse navbar-collapse margin" id="menu3">
             <ul>
               <li class="sidebar_li"><a href="#" class="nav-link">HTML</a></li>
               <li class="sidebar_li"><a href="#" class="nav-link">PHP

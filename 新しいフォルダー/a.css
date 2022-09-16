@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  float: left;
+  padding: 20px;
+}
+
+#sample1 {
+  background: #7fffd4;
+}
+
+#sample2 {
+  visibility: hidden;
+  background: #ff7f50;
+}
+
+#sample3 {
+  background: #00bfff;
+  display: none;
+}
+
+#sample4 {
+  background: #6a5acd;
+}

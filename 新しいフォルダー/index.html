@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>超簡単！CDNのjQueryを読み込む方法</title>
+  <script src="jquery-3.6.1.min.js"></script>
+
+  <script>
+    $(function () {
+      /* ここにjQueryのコードを書く */
+      $("#jq").css("color","RED").text("あか");
+      $("h1").text("こんにちは");
+    });
+
+    $(function () {
+      // $(".btn").on("click", function () {
+        // let error;
+        // let value = $(this).val();
+        // if (value == "" || !value.match(/[^\s\t]/)) {
+        //   error = true;
+        // }
+
+        // if (error) {
+        //   //エラー時の処理
+        //   console.log($(".require").val());
+        //   $(".require").hide();
+          // alert("必須ですよ");
+        // }
+
+
+      $(".button").on("click", function () {//１．クリックしたときに
+        $(".box").slideToggle();//２．ボックスの表示・非表示を切り替え
+      });
+    });
+  </script>
+  <style>
+    button {
+      font-size: 20px;
+      padding: 20px;
+    }
+
+
+    .box{
+        width: 300px;
+        height: 300px;
+        background-color: aqua;
+      }
+  </style>
+</head>
+
+
+<body id="top">
+  <div class="contents">
+    <input type="text" class="require" />
+    ​
+    <button class="btn">アラート表示</button>
+  </div>
+  <!--contents-->
+
+  <h1></h1>
+  <p id="jq">クエリー</p>
+
+  <div class="button">クリック！</div>
+  <div class="box">
+    メニュー表示部分です
+    <p>かくれる</p>
+  </div>
+
+</body>
+
+</html>
